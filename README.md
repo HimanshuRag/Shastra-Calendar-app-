@@ -103,4 +103,3 @@ To build and sync the application for Android:
 
 This project is proprietary and confidential. Unauthorized copying of this project, via any medium, is strictly prohibited.
 
-*Designed with devotion and code.* 🕉️
