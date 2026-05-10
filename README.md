@@ -1,4 +1,4 @@
-# 🕉️ Shastra Life
+#  Shastra Life
 
 ![Shastra Life Banner](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -11,7 +11,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Vedic Calendar (Panchang):** Accurate daily calculation of Tithi, Nakshatra, and Yoga.
 * **Daily Oracle & Horoscopes:** Personalized daily insights, horoscopes, and energy readings based on Vedic principles.
