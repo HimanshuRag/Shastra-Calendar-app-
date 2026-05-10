@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "quote": "You have the right to work, but never to the fruit of work. Act without attachment to outcomes.",
+        "reference": "Bhagavad Gita, Chapter 2 · Verse 47",
+        "task": "Feed a bird or stray animal today.",
+        "quote_hi": "कर्म करो, फल की चिंता मत करो। बिना आसक्ति के कार्य करो।",
+        "task_hi": "आज किसी पक्षी या आवारा पशु को खाना खिलाएँ।",
+        "theme": "lotus",
+        "image": "/images/oracle/lotus.svg",
+        "color": "from-amber-50 to-orange-50"
+    },
+    {
+        "id": 2,
+        "quote": "The soul is neither born, nor does it die. It is eternal, enduring, ancient, and unslain.",
+        "reference": "Bhagavad Gita, Chapter 2 · Verse 20",
+        "task": "Sit in silence for 5 minutes. Simply breathe.",
+        "quote_hi": "आत्मा न जन्म लेती है, न मरती है। यह शाश्वत, अजर, पुरातन और अविनाशी है।",
+        "task_hi": "5 मिनट मौन में बैठें। बस श्वास लें।",
+        "theme": "om",
+        "image": "/images/oracle/om.svg",
+        "color": "from-orange-50 to-yellow-50"
+    },
+    {
+        "id": 3,
+        "quote": "When meditation is mastered, the mind is unwavering like the flame of a lamp in a windless place.",
+        "reference": "Bhagavad Gita, Chapter 6 · Verse 19",
+        "task": "Light a diya this evening with intention.",
+        "quote_hi": "जब ध्यान परिपक्व हो जाता है, मन वायुरहित स्थान में दीपक की लौ की तरह स्थिर रहता है।",
+        "task_hi": "आज शाम संकल्प के साथ एक दीया जलाएँ।",
+        "theme": "diya",
+        "image": "/images/oracle/diya.svg",
+        "color": "from-yellow-50 to-amber-50"
+    },
+    {
+        "id": 4,
+        "quote": "Let right deeds be thy motive, not the fruit which comes from them.",
+        "reference": "Bhagavad Gita, Chapter 3 · Verse 9",
+        "task": "Do one kind act today without expectation of thanks.",
+        "quote_hi": "सही कर्म तुम्हारी प्रेरणा हो, उससे मिलने वाला फल नहीं।",
+        "task_hi": "आज बिना धन्यवाद की अपेक्षा के एक दयालु कार्य करें।",
+        "theme": "chakra",
+        "image": "/images/oracle/chakra.svg",
+        "color": "from-rose-50 to-orange-50"
+    },
+    {
+        "id": 5,
+        "quote": "Reshape yourself through the power of your will. Those who have conquered themselves find the Self to be their greatest ally.",
+        "reference": "Bhagavad Gita, Chapter 6 · Verse 5",
+        "task": "Write one thing you are grateful for today.",
+        "quote_hi": "अपनी इच्छाशक्ति से स्वयं को नया रूप दें। जिन्होंने स्वयं को जीत लिया, उन्हें स्वयं ही सबसे बड़ा मित्र मिल जाता है।",
+        "task_hi": "आज एक चीज़ लिखें जिसके लिए आप कृतज्ञ हैं।",
+        "theme": "mandala",
+        "image": "/images/oracle/mandala.svg",
+        "color": "from-amber-50 to-rose-50"
+    },
+    {
+        "id": 6,
+        "quote": "Perform all thy actions with mind concentrated on the Divine, renouncing attachment and looking upon success and failure with an equal eye.",
+        "reference": "Bhagavad Gita, Chapter 2 · Verse 48",
+        "task": "Give something away — an object, time, or a smile.",
+        "quote_hi": "सभी कार्य परमात्मा पर केंद्रित मन से करो, आसक्ति त्यागकर सफलता और विफलता को समान दृष्टि से देखो।",
+        "task_hi": "कुछ दान करें — कोई वस्तु, समय, या मुस्कान।",
+        "theme": "lotus",
+        "image": "/images/oracle/lotus.svg",
+        "color": "from-teal-50 to-amber-50"
+    },
+    {
+        "id": 7,
+        "quote": "From anger comes delusion, from delusion confused memory, from confused memory disorder in reasoning, and from disorder in reasoning ruin.",
+        "reference": "Bhagavad Gita, Chapter 2 · Verse 63",
+        "task": "Choose one moment of anger today to respond with silence.",
+        "quote_hi": "क्रोध से मोह उत्पन्न होता है, मोह से स्मृति-भ्रम, स्मृति-भ्रम से बुद्धि-नाश, और बुद्धि-नाश से पतन।",
+        "task_hi": "आज क्रोध के एक क्षण को मौन से उत्तर दें।",
+        "theme": "om",
+        "image": "/images/oracle/om.svg",
+        "color": "from-orange-50 to-amber-50"
+    },
+    {
+        "id": 8,
+        "quote": "The wise grieve neither for the living nor the dead. There was never a time when we did not exist.",
+        "reference": "Bhagavad Gita, Chapter 2 · Verse 11–12",
+        "task": "Call someone you haven't spoken to in a while.",
+        "quote_hi": "ज्ञानी न जीवित के लिए शोक करते हैं, न मृत के लिए। कभी ऐसा समय नहीं था जब हम नहीं थे।",
+        "task_hi": "किसी ऐसे व्यक्ति को फ़ोन करें जिससे काफ़ी समय से बात नहीं हुई।",
+        "theme": "diya",
+        "image": "/images/oracle/diya.svg",
+        "color": "from-yellow-50 to-rose-50"
+    },
+    {
+        "id": 9,
+        "quote": "He who has no attachments can really love others, for his love is pure and divine.",
+        "reference": "Bhagavad Gita, Chapter 3 · Verse 7",
+        "task": "Spend time in nature. Touch the earth.",
+        "quote_hi": "जिसकी कोई आसक्ति नहीं, वही सच्चा प्रेम कर सकता है, क्योंकि उसका प्रेम शुद्ध और दिव्य है।",
+        "task_hi": "प्रकृति में समय बिताएँ। धरती को स्पर्श करें।",
+        "theme": "chakra",
+        "image": "/images/oracle/chakra.svg",
+        "color": "from-green-50 to-amber-50"
+    },
+    {
+        "id": 10,
+        "quote": "Even a little practice of this inner discipline will free you from dire fears and colossal sufferings.",
+        "reference": "Bhagavad Gita, Chapter 2 · Verse 40",
+        "task": "Begin something you have been postponing.",
+        "quote_hi": "इस आंतरिक अनुशासन का थोड़ा सा अभ्यास भी आपको भयंकर भय और विशाल कष्टों से मुक्त कर देगा।",
+        "task_hi": "कोई एक काम शुरू करें जो आप टालते आ रहे हैं।",
+        "theme": "mandala",
+        "image": "/images/oracle/mandala.svg",
+        "color": "from-purple-50 to-amber-50"
+    },
+    {
+        "id": 11,
+        "quote": "For those who worship Me with devotion, ever united in thought with Me, I carry what they lack and preserve what they have.",
+        "reference": "Bhagavad Gita, Chapter 9 · Verse 22",
+        "task": "Release one worry. Write it down, then let it go.",
+        "quote_hi": "जो भक्त मुझमें अनन्य भाव से ध्यान लगाकर मेरी उपासना करते हैं, उनकी कमी मैं पूरी करता हूँ और जो उनके पास है उसकी रक्षा करता हूँ।",
+        "task_hi": "एक चिंता छोड़ दें। उसे लिखें, फिर जाने दें।",
+        "theme": "om",
+        "image": "/images/oracle/om.svg",
+        "color": "from-sky-50 to-amber-50"
+    },
+    {
+        "id": 12,
+        "quote": "The ones who act without selfish motives, surrendering their actions to the Divine, are not tainted by wrongdoing.",
+        "reference": "Bhagavad Gita, Chapter 5 · Verse 10",
+        "task": "Offer your first bite of food today in gratitude.",
+        "quote_hi": "जो स्वार्थ-रहित होकर अपने कर्म परमात्मा को अर्पित कर देते हैं, वे पाप से लिप्त नहीं होते।",
+        "task_hi": "आज भोजन का पहला ग्रास कृतज्ञता के साथ अर्पित करें।",
+        "theme": "diya",
+        "image": "/images/oracle/diya.svg",
+        "color": "from-amber-50 to-orange-100"
+    }
+]

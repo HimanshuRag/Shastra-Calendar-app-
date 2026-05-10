@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace = "com.shastralife.app"
+    compileSdk = rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.shastralife.app"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        aaptOptions {
+             // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
+             // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
+            ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
+        }
+    }
+    signingConfigs {
+        release {
+            // Read signing credentials from local.properties (never commit passwords to VCS)
+            def localProps = new Properties()
+            def localPropsFile = rootProject.file('local.properties')
+            if (localPropsFile.exists()) {
+                localPropsFile.withInputStream { localProps.load(it) }
+            }
+            def keystorePath     = localProps.getProperty('KEYSTORE_PATH', '')
+            def keystorePassword = localProps.getProperty('KEYSTORE_PASSWORD', '')
+            def keyAliasVal      = localProps.getProperty('KEY_ALIAS', '')
+            def keyPasswordVal   = localProps.getProperty('KEY_PASSWORD', '')
+
+            // Abort the build if any signing credential is missing — prevents a
+            // silently-unsigned release APK/AAB reaching the Play Store.
+            if (!keystorePath || !keystorePassword || !keyAliasVal || !keyPasswordVal) {
+                throw new GradleException(
+                    "Release signing config is incomplete. " +
+                    "Please set KEYSTORE_PATH, KEYSTORE_PASSWORD, KEY_ALIAS and KEY_PASSWORD " +
+                    "in android/local.properties (never commit that file to VCS)."
+                )
+            }
+
+            storeFile     file(keystorePath)
+            storePassword keystorePassword
+            keyAlias      keyAliasVal
+            keyPassword   keyPasswordVal
+        }
+    }
+    // Enforce minimum targetSdk for Play Store compliance
+    if (rootProject.ext.targetSdkVersion < 34) {
+        throw new GradleException("targetSdkVersion must be >= 34 for Play Store compliance.")
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir{
+        dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
+    implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
+    implementation project(':capacitor-android')
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    implementation project(':capacitor-cordova-android-plugins')
+}
+
+apply from: 'capacitor.build.gradle'
+
+// Firebase: set ENABLE_FIREBASE=true in gradle.properties to enable.
+// Never commit google-services.json to VCS.
+if (project.hasProperty('ENABLE_FIREBASE') && ENABLE_FIREBASE == 'true') {
+    apply plugin: 'com.google.gms.google-services'
+}

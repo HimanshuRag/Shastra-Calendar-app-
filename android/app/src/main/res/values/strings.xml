@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Shastra Life</string>
+    <string name="title_activity_main">Shastra Life</string>
+    <string name="package_name">com.shastralife.app</string>
+    <string name="custom_url_scheme">com.shastralife.app</string>
+</resources>

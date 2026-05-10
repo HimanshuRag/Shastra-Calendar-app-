@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#FAF7F2"/>
+  <!-- Outer ring -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#D4AF37" stroke-width="2" stroke-dasharray="12 6" opacity="0.5"/>
+  <!-- Inner warm circle -->
+  <circle cx="256" cy="256" r="190" fill="url(#grad)" opacity="0.12"/>
+  <defs>
+    <radialGradient id="grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8591A"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- OM symbol -->
+  <text x="256" y="310"
+    text-anchor="middle"
+    font-family="serif"
+    font-size="240"
+    fill="#E8591A"
+    opacity="0.92">ॐ</text>
+  <!-- Gold dots (cardinal points) -->
+  <circle cx="256" cy="52"  r="6" fill="#D4AF37" opacity="0.8"/>
+  <circle cx="460" cy="256" r="6" fill="#D4AF37" opacity="0.8"/>
+  <circle cx="256" cy="460" r="6" fill="#D4AF37" opacity="0.8"/>
+  <circle cx="52"  cy="256" r="6" fill="#D4AF37" opacity="0.8"/>
+  <!-- Gold dots (diagonal) -->
+  <circle cx="394" cy="118" r="4" fill="#D4AF37" opacity="0.5"/>
+  <circle cx="394" cy="394" r="4" fill="#D4AF37" opacity="0.5"/>
+  <circle cx="118" cy="394" r="4" fill="#D4AF37" opacity="0.5"/>
+  <circle cx="118" cy="118" r="4" fill="#D4AF37" opacity="0.5"/>
+</svg>

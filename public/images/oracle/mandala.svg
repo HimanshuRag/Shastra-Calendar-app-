@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Geometric Mandala - concentric patterns -->
+  <circle cx="100" cy="100" r="98" fill="rgba(232,89,26,0.03)" stroke="rgba(212,175,55,0.15)" stroke-width="1"/>
+  
+  <!-- Concentric circles -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(232,89,26,0.2)" stroke-width="1"/>
+  <circle cx="100" cy="100" r="65" fill="none" stroke="rgba(212,175,55,0.25)" stroke-width="1"/>
+  <circle cx="100" cy="100" r="50" fill="none" stroke="rgba(232,89,26,0.3)" stroke-width="1"/>
+  <circle cx="100" cy="100" r="35" fill="none" stroke="rgba(212,175,55,0.4)" stroke-width="1.2"/>
+  
+  <!-- 8-pointed star outer -->
+  <polygon points="100,22 110,68 155,45 130,88 178,100 130,112 155,155 110,132 100,178 90,132 45,155 70,112 22,100 70,88 45,45 90,68"
+    fill="rgba(232,89,26,0.06)" stroke="#E8591A" stroke-width="1.2" stroke-linejoin="round"/>
+  
+  <!-- 8-pointed star inner -->
+  <polygon points="100,55 107,82 135,65 118,90 145,100 118,110 135,135 107,118 100,145 93,118 65,135 82,110 55,100 82,90 65,65 93,82"
+    fill="rgba(212,175,55,0.08)" stroke="#D4AF37" stroke-width="1" stroke-linejoin="round"/>
+  
+  <!-- Center lotus-like petals -->
+  <ellipse cx="100" cy="80" rx="7" ry="18" fill="rgba(232,89,26,0.15)" stroke="#E8591A" stroke-width="1" transform="rotate(0 100 100)"/>
+  <ellipse cx="100" cy="80" rx="7" ry="18" fill="rgba(232,89,26,0.12)" stroke="#E8591A" stroke-width="1" transform="rotate(45 100 100)"/>
+  <ellipse cx="100" cy="80" rx="7" ry="18" fill="rgba(232,89,26,0.12)" stroke="#E8591A" stroke-width="1" transform="rotate(90 100 100)"/>
+  <ellipse cx="100" cy="80" rx="7" ry="18" fill="rgba(232,89,26,0.12)" stroke="#E8591A" stroke-width="1" transform="rotate(135 100 100)"/>
+  
+  <!-- Center -->
+  <circle cx="100" cy="100" r="12" fill="rgba(212,175,55,0.2)" stroke="#D4AF37" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="5" fill="#D4AF37" opacity="0.7"/>
+  
+  <!-- Corner decorative dots -->
+  <circle cx="100" cy="24" r="2.5" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="152" cy="48" r="2" fill="#E8591A" opacity="0.5"/>
+  <circle cx="176" cy="100" r="2.5" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="152" cy="152" r="2" fill="#E8591A" opacity="0.5"/>
+  <circle cx="100" cy="176" r="2.5" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="48" cy="152" r="2" fill="#E8591A" opacity="0.5"/>
+  <circle cx="24" cy="100" r="2.5" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="48" cy="48" r="2" fill="#E8591A" opacity="0.5"/>
+</svg>

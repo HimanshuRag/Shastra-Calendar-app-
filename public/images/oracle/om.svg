@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Om symbol - elegant minimalist style -->
+  <circle cx="100" cy="100" r="98" fill="rgba(232,89,26,0.04)" stroke="rgba(212,175,55,0.15)" stroke-width="1"/>
+  
+  <!-- Decorative ring -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(212,175,55,0.2)" stroke-width="0.5" stroke-dasharray="4 4"/>
+  
+  <!-- Om/Aum symbol drawn as path -->
+  <text x="100" y="120" 
+    text-anchor="middle" 
+    font-family="serif" 
+    font-size="88" 
+    fill="none"
+    stroke="#E8591A"
+    stroke-width="2"
+    opacity="0.85">ॐ</text>
+  
+  <!-- Radiant dots around -->
+  <circle cx="100" cy="22" r="3" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="155" cy="45" r="2" fill="#D4AF37" opacity="0.4"/>
+  <circle cx="178" cy="100" r="3" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="155" cy="155" r="2" fill="#D4AF37" opacity="0.4"/>
+  <circle cx="100" cy="178" r="3" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="45" cy="155" r="2" fill="#D4AF37" opacity="0.4"/>
+  <circle cx="22" cy="100" r="3" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="45" cy="45" r="2" fill="#D4AF37" opacity="0.4"/>
+</svg>

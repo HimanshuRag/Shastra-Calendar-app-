@@ -1,0 +1,26 @@
+{
+    "appId": "com.shastralife.app",
+    "appName": "Shastra Life",
+    "webDir": "out",
+    "server": {
+        "androidScheme": "https"
+    },
+    "backgroundColor": "#FAF7F2",
+    "plugins": {
+        "SplashScreen": {
+            "launchShowDuration": 1800,
+            "launchAutoHide": true,
+            "backgroundColor": "#FAF7F2",
+            "androidSplashResourceName": "splash",
+            "androidScaleType": "CENTER_CROP",
+            "showSpinner": false,
+            "splashFullScreen": true,
+            "splashImmersive": true
+        }
+    },
+    "android": {
+        "buildOptions": {
+            "releaseType": "AAB"
+        }
+    }
+}

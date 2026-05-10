@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Block internal/utility paths
+Disallow: /api/
+Disallow: /_next/
